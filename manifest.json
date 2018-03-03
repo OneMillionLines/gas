@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "My Cool Extension",
+    "version": "0.2",
+
+    "background": {
+        "scripts": ["popup.js"]
+    },
+    "content_scripts": [{
+
+        "matches": ["*://*/*"],
+        "js": ["content.js"]
+    }],
+    "permissions": ["tabs", "http://*/*", "https://*/*"],
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}

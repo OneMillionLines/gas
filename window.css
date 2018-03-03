@@ -1,0 +1,30 @@
+/*body {
+    background-color: lightblue;
+*/    /*background-image: url("bg.jpg");*/
+
+/*}*/
+
+/*h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}*/
+h1
+{
+    font-family: 'Poiret One', cursive;
+    font-size: 50px;
+    color: #003399;
+    border-left: 6px solid blue;
+    background-color: lightgrey;
+}
+p{
+    margin-top: 20px;
+    font-family: 'Sanchez', serif;
+    font-size: 30px;
+}
